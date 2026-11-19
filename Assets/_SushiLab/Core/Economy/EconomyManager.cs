@@ -59,4 +59,10 @@ public class EconomyManager : MonoBehaviour
         }
         return processedTransactions.Add(transactionId); // false si ya existe
     }
+    public void Save() => SaveSystem.SaveGame(1, Balance); // El día 1 lo pondrá Progression luego
+    public void Load() 
+    { 
+        Balance = SaveSystem.LoadBalance(); 
+        OnBalanceChanged?.Invoke(Balance); 
+    }
 }

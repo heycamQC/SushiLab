@@ -48,4 +48,8 @@ public class InventoryManager : MonoBehaviour
         OnStockChanged?.Invoke(ingredientId, stock[ingredientId]);
         return true;
     }
+        public void SaveInventory()
+    {
+        foreach (var kvp in stock) SaveSystem.SaveIngredient(kvp.Key, kvp.Value);
+    }
 }

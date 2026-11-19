@@ -41,6 +41,10 @@ public class TicTacToeController : MonoBehaviour
     [SerializeField] private TMP_Text resultWin;
      [SerializeField] private TMP_Text resultLose;
       [SerializeField] private TMP_Text resultTie;
+          [Header("Dificultad de la IA")]
+    [Range(0f, 100f)]
+    [Tooltip("Porcentaje de probabilidad de que la IA cometa un error y juegue al azar (0 = Imposible, 100 = Tonta)")]
+    [SerializeField] private float probabilidadDeError = 35f; 
 
     // Estado del tablero
     private readonly int[] tablero = new int[9];
@@ -177,6 +181,7 @@ public class TicTacToeController : MonoBehaviour
         if (partidaActual >= totalPartidas)
         {
             serieTerminada = true;
+            OtorgarRecompensaSerie();
             transicionCoroutine = StartCoroutine(FinalizarSerie());
         }
         else
@@ -187,7 +192,7 @@ public class TicTacToeController : MonoBehaviour
 
     private IEnumerator SiguientePartida()
     {
-        yield return new WaitForSeconds(pausaEntrePartidasSegundos);
+        yield return new WaitForSecondsRealtime(pausaEntrePartidasSegundos);
         partidaActual++;
         IniciarPartida();
         transicionCoroutine = null;
@@ -195,7 +200,7 @@ public class TicTacToeController : MonoBehaviour
 
     private IEnumerator FinalizarSerie()
     {
-        yield return new WaitForSeconds(pausaEntrePartidasSegundos);
+        yield return new WaitForSecondsRealtime(pausaEntrePartidasSegundos);
         MostrarResumenFinal();
         transicionCoroutine = null;
     }
@@ -212,6 +217,44 @@ public class TicTacToeController : MonoBehaviour
         }
         if (resultPanel != null) resultPanel.SetActive(true);
         ActualizarEstado("Fin de la serie");
+    }
+
+    private void OtorgarRecompensaSerie()
+    {
+        DailyRewardManager dailyRewardManager = DailyRewardManager.Instance;
+        if (dailyRewardManager == null)
+        {
+            Debug.LogWarning("TicTacToe: no se encontro DailyRewardManager; no se otorgo recompensa.");
+            return;
+        }
+
+        if (!dailyRewardManager.CanPlayForReward())
+        {
+            Debug.Log("TicTacToe: se alcanzo el limite diario de partidas recompensadas.");
+            return;
+        }
+
+        int reward = Mathf.RoundToInt(
+            20f * victoriasJugador / Mathf.Max(totalPartidas, 1)
+        );
+
+        if (reward > 0)
+        {
+            EconomyManager economyManager = EconomyManager.Instance;
+            if (economyManager == null)
+            {
+                Debug.LogError("TicTacToe: no se encontro EconomyManager; no se otorgo recompensa.");
+                return;
+            }
+
+            if (!economyManager.AddSushiDollars(reward, $"tictactoe-{System.Guid.NewGuid():N}"))
+            {
+                Debug.LogError("TicTacToe: no se pudo agregar la recompensa de SushiDólares.");
+                return;
+            }
+        }
+
+        dailyRewardManager.RegisterMatchPlayed();
     }
 
     // ------------------------------------------------------------------
@@ -234,7 +277,7 @@ public class TicTacToeController : MonoBehaviour
 
     private IEnumerator TurnoComputadora()
     {
-        yield return new WaitForSeconds(esperaComputadoraSegundos);
+        yield return new WaitForSecondsRealtime(esperaComputadoraSegundos);
 
         if (partidaTerminada)
         {
@@ -298,8 +341,15 @@ public class TicTacToeController : MonoBehaviour
     // IA Minimax
     // ------------------------------------------------------------------
 
-    private int ObtenerMejorMovimiento()
+      private int ObtenerMejorMovimiento()
     {
+        // 1. Probabilidad de equivocarse (jugar al azar)
+        if (Random.Range(0f, 100f) <= probabilidadDeError)
+        {
+            return ObtenerMovimientoAleatorio();
+        }
+
+        // 2. Si no se equivoca, juega a la perfección (Minimax)
         int mejorPuntaje = int.MinValue;
         int mejorIndice = -1;
 
@@ -319,6 +369,25 @@ public class TicTacToeController : MonoBehaviour
         }
 
         return mejorIndice;
+    }
+
+    private int ObtenerMovimientoAleatorio()
+    {
+        System.Collections.Generic.List<int> casillasVacias = new System.Collections.Generic.List<int>();
+        
+        for (int i = 0; i < tablero.Length; i++)
+        {
+            if (tablero[i] == 0)
+                casillasVacias.Add(i);
+        }
+
+        if (casillasVacias.Count > 0)
+        {
+            int indiceRandom = Random.Range(0, casillasVacias.Count);
+            return casillasVacias[indiceRandom];
+        }
+
+        return -1;
     }
 
     private int Minimax(int profundidad, bool maximizaComputadora)

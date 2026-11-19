@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI; // <-- ¡ESTO FALTABA! Es obligatorio para usar Button
+using UnityEngine.UI; 
 
 public class MainMenuController : MonoBehaviour
 {
@@ -19,7 +19,6 @@ public class MainMenuController : MonoBehaviour
 
     private void Start()
     {
-        // Cerramos los paneles al iniciar
         if (panelAjustes != null) panelAjustes.SetActive(false);
         if (panelRecetario != null) panelRecetario.SetActive(false);
         
