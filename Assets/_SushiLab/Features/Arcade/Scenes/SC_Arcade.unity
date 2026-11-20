@@ -451,8 +451,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: VOLVER
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3960706c9c2ac3443aeb2a5c6564fbba, type: 2}
+  m_sharedMaterial: {fileID: -2972263240557212927, guid: 3960706c9c2ac3443aeb2a5c6564fbba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1543,8 +1543,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 400
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3960706c9c2ac3443aeb2a5c6564fbba, type: 2}
+  m_sharedMaterial: {fileID: -2972263240557212927, guid: 3960706c9c2ac3443aeb2a5c6564fbba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1808,7 +1808,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.0050354004, y: -0.000038146973}
+  m_AnchoredPosition: {x: 14, y: 0.000025359}
   m_SizeDelta: {x: 280.44, y: 41.348}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1155082971
@@ -1833,8 +1833,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Sushi Dolars
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c4f9074317080cc4ab0d5b41bd341e7e, type: 2}
+  m_sharedMaterial: {fileID: -1448507415194154797, guid: c4f9074317080cc4ab0d5b41bd341e7e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2220,8 +2220,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.69999695, y: -35.1}
-  m_SizeDelta: {x: 280.44, y: 45.12}
+  m_AnchoredPosition: {x: 0.0039978027, y: -41.995}
+  m_SizeDelta: {x: 280.44, y: 30.671}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1450936548
 MonoBehaviour:
@@ -2245,8 +2245,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'MINIGAMES '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3960706c9c2ac3443aeb2a5c6564fbba, type: 2}
+  m_sharedMaterial: {fileID: -2972263240557212927, guid: 3960706c9c2ac3443aeb2a5c6564fbba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2270,8 +2270,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 39.4
-  m_fontSizeBase: 39.4
+  m_fontSize: 36.68
+  m_fontSizeBase: 36.68
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2652,8 +2652,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 3/3
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c4f9074317080cc4ab0d5b41bd341e7e, type: 2}
+  m_sharedMaterial: {fileID: -1448507415194154797, guid: c4f9074317080cc4ab0d5b41bd341e7e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3051,8 +3051,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'PARTIDAS CON RECOMPENSAS:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3960706c9c2ac3443aeb2a5c6564fbba, type: 2}
+  m_sharedMaterial: {fileID: -2972263240557212927, guid: 3960706c9c2ac3443aeb2a5c6564fbba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3076,8 +3076,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 39.3
+  m_fontSizeBase: 39.3
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
