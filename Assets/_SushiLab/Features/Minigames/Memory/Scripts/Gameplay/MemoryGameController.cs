@@ -5,7 +5,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-
 public class MemoryGameController : MonoBehaviour
 {
     public enum MemoryDifficulty
@@ -76,7 +75,6 @@ public class MemoryGameController : MonoBehaviour
     private MemoryCard firstCard;
     private MemoryCard secondCard;
     private bool isCheckingPair;
-    private bool rewardProcessed;
     private int attempts;
     private int matchedPairs;
     private int totalPairs;
@@ -226,7 +224,6 @@ public class MemoryGameController : MonoBehaviour
         remainingTime = limitSeconds;
         attempts = 0;
         matchedPairs = 0;
-        rewardProcessed = false;
         firstCard = null;
         secondCard = null;
         isCheckingPair = false;
@@ -421,8 +418,6 @@ public class MemoryGameController : MonoBehaviour
 
     private void ShowResults(bool isVictory)
     {
-        OtorgarRecompensa(isVictory);
-
         if (resultTitleText != null)
         {
             resultTitleText.text = isVictory ? "¡EXCELENTE!" : "¡SE ACABÓ EL TIEMPO!";
@@ -458,50 +453,6 @@ public class MemoryGameController : MonoBehaviour
         {
             resultPanel.SetActive(true);
         }
-    }
-
-    private void OtorgarRecompensa(bool isVictory)
-    {
-        if (rewardProcessed)
-        {
-            return;
-        }
-
-        rewardProcessed = true;
-        DailyRewardManager dailyRewardManager = DailyRewardManager.Instance;
-        if (dailyRewardManager == null)
-        {
-            Debug.LogWarning("Sushi Memory: no se encontro DailyRewardManager; no se otorgo recompensa.");
-            return;
-        }
-
-        if (!dailyRewardManager.CanPlayForReward())
-        {
-            Debug.Log("Sushi Memory: se alcanzo el limite diario de partidas recompensadas.");
-            return;
-        }
-
-        int reward = isVictory
-            ? Mathf.Clamp(20 - Mathf.Max(0, attempts - totalPairs), 0, 20)
-            : 0;
-
-        if (reward > 0)
-        {
-            EconomyManager economyManager = EconomyManager.Instance;
-            if (economyManager == null)
-            {
-                Debug.LogError("Sushi Memory: no se encontro EconomyManager; no se otorgo recompensa.");
-                return;
-            }
-
-            if (!economyManager.AddSushiDollars(reward, $"memory-{System.Guid.NewGuid():N}"))
-            {
-                Debug.LogError("Sushi Memory: no se pudo agregar la recompensa de SushiDólares.");
-                return;
-            }
-        }
-
-        dailyRewardManager.RegisterMatchPlayed();
     }
 
     public void RetryGame()
