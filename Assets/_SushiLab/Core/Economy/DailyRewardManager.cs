@@ -10,7 +10,8 @@ public class DailyRewardManager : MonoBehaviour
     private int partidasUsadas = 0;
     private string lastResetDate;
 
-    public event Action<int, int> OnRewardsChanged; // (usadas, maximo)
+    // Evento para que la UI se actualice sola
+    public event Action<int, int> OnRewardsChanged;
 
     private void Awake()
     {
@@ -18,15 +19,17 @@ public class DailyRewardManager : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
         
-        CargarDatos();
+        CargarDatos(); // Cargamos el progreso local
     }
 
     private void CargarDatos()
     {
+        // Obtenemos la fecha actual del dispositivo
         string hoy = DateTime.Now.ToString("yyyy-MM-dd");
         lastResetDate = PlayerPrefs.GetString("DailyRewards_Date", "");
         partidasUsadas = PlayerPrefs.GetInt("DailyRewards_Used", 0);
 
+        // Si es un día nuevo, reiniciamos el contador
         if (lastResetDate != hoy)
         {
             lastResetDate = hoy;
@@ -37,12 +40,14 @@ public class DailyRewardManager : MonoBehaviour
 
     public bool CanPlayForReward()
     {
+        // Verificamos si el día cambió mientras el juego estaba abierto
         string hoy = DateTime.Now.ToString("yyyy-MM-dd");
         if (lastResetDate != hoy)
         {
             lastResetDate = hoy;
             partidasUsadas = 0;
             GuardarDatos();
+            OnRewardsChanged?.Invoke(partidasUsadas, maxDailyRewards);
         }
 
         return partidasUsadas < maxDailyRewards;
