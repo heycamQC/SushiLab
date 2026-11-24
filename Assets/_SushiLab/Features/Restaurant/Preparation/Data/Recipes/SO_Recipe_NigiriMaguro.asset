@@ -12,11 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6ea3377df6a9de4ea1f504a373d1599, type: 3}
   m_Name: SO_Recipe_NigiriMaguro
   m_EditorClassIdentifier: Assembly-CSharp::RecipeData
-  id: 
-  displayName: 
-  displaySprite: {fileID: 0}
+  id: nigiri_maguro
+  displayName: Nigiri Maguro
+  displaySprite: {fileID: -2819506512697052929, guid: ed9b952856b673445843f8d3f10b61dc, type: 3}
   recipeFamily: 0
   unlockDay: 1
-  basePrice: 0
+  basePrice: 25
   piecesPerPortion: 1
-  orderedSteps: []
+  orderedSteps:
+  - stepType: 0
+    ingredient: {fileID: 11400000, guid: 00f8fa62b4914f54c800fc4d053cd4d5, type: 2}
+    amount: 1
+  - stepType: 0
+    ingredient: {fileID: 11400000, guid: 858a9d636c125b24b8b76854262db761, type: 2}
+    amount: 1

@@ -1,0 +1,1352 @@
+fileFormatVersion: 2
+guid: 381164ec792d32c4fba62ae400c1ce1c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6700184087203239219
+    second: SPR_Prep_Roll_SalmonFilling_0
+  - first:
+      213: 4186783987848799383
+    second: SPR_Prep_Roll_SalmonFilling_1
+  - first:
+      213: -8022420343507344377
+    second: SPR_Prep_Roll_SalmonFilling_2
+  - first:
+      213: 2656856974703729412
+    second: SPR_Prep_Roll_SalmonFilling_3
+  - first:
+      213: 2239451371547634928
+    second: SPR_Prep_Roll_SalmonFilling_4
+  - first:
+      213: -2775191697560470208
+    second: SPR_Prep_Roll_SalmonFilling_5
+  - first:
+      213: 2017229583804359880
+    second: SPR_Prep_Roll_SalmonFilling_6
+  - first:
+      213: 391405567717292947
+    second: SPR_Prep_Roll_SalmonFilling_7
+  - first:
+      213: 4121249848747653178
+    second: SPR_Prep_Roll_SalmonFilling_8
+  - first:
+      213: -467195705343139793
+    second: SPR_Prep_Roll_SalmonFilling_9
+  - first:
+      213: -4344446418702832704
+    second: SPR_Prep_Roll_SalmonFilling_10
+  - first:
+      213: -8996541582136528999
+    second: SPR_Prep_Roll_SalmonFilling_11
+  - first:
+      213: -4817171781179753079
+    second: SPR_Prep_Roll_SalmonFilling_12
+  - first:
+      213: -857164109582713677
+    second: SPR_Prep_Roll_SalmonFilling_13
+  - first:
+      213: -1470691301469972442
+    second: SPR_Prep_Roll_SalmonFilling_14
+  - first:
+      213: -5463047307428731044
+    second: SPR_Prep_Roll_SalmonFilling_15
+  - first:
+      213: 2723992404587419421
+    second: SPR_Prep_Roll_SalmonFilling_16
+  - first:
+      213: -1174149710364448814
+    second: SPR_Prep_Roll_SalmonFilling_17
+  - first:
+      213: 8028520194702502949
+    second: SPR_Prep_Roll_SalmonFilling_18
+  - first:
+      213: 4983788524932164842
+    second: SPR_Prep_Roll_SalmonFilling_19
+  - first:
+      213: 2362966670838865728
+    second: SPR_Prep_Roll_SalmonFilling_20
+  - first:
+      213: -1794185782287317404
+    second: SPR_Prep_Roll_SalmonFilling_21
+  - first:
+      213: -1015867505824291019
+    second: SPR_Prep_Roll_SalmonFilling_22
+  - first:
+      213: -907311426740618403
+    second: SPR_Prep_Roll_SalmonFilling_23
+  - first:
+      213: -5680504105792816222
+    second: SPR_Prep_Roll_SalmonFilling_24
+  - first:
+      213: -4116870456361860078
+    second: SPR_Prep_Roll_SalmonFilling_25
+  - first:
+      213: -2574647639504791372
+    second: SPR_Prep_Roll_SalmonFilling_26
+  - first:
+      213: -6072293116442164301
+    second: SPR_Prep_Roll_SalmonFilling_27
+  - first:
+      213: 8427997578903819251
+    second: SPR_Prep_Roll_SalmonFilling_28
+  - first:
+      213: -8027116825632944063
+    second: SPR_Prep_Roll_SalmonFilling_29
+  - first:
+      213: 8687327519381358962
+    second: SPR_Prep_Roll_SalmonFilling_30
+  - first:
+      213: 7294242946532051462
+    second: SPR_Prep_Roll_SalmonFilling_31
+  - first:
+      213: 6615090348106826593
+    second: SPR_Prep_Roll_SalmonFilling_32
+  - first:
+      213: -8453468910008632732
+    second: SPR_Prep_Roll_SalmonFilling_33
+  - first:
+      213: 5929842836589077816
+    second: SPR_Prep_Roll_SalmonFilling_34
+  - first:
+      213: -1900436037155855266
+    second: SPR_Prep_Roll_SalmonFilling_35
+  - first:
+      213: 5555804941504863459
+    second: SPR_Prep_Roll_SalmonFilling_36
+  - first:
+      213: -2630356951983419604
+    second: SPR_Prep_Roll_SalmonFilling_37
+  - first:
+      213: 3726257415848689682
+    second: SPR_Prep_Roll_SalmonFilling_38
+  - first:
+      213: 4419315822108621833
+    second: SPR_Prep_Roll_SalmonFilling_39
+  - first:
+      213: 4111067107459517574
+    second: SPR_Prep_Roll_SalmonFilling_40
+  - first:
+      213: -2940582127909538585
+    second: SPR_Prep_Roll_SalmonFilling_41
+  - first:
+      213: -3891799454712068088
+    second: SPR_Prep_Roll_SalmonFilling_42
+  - first:
+      213: 349160701403677683
+    second: SPR_Prep_Roll_SalmonFilling_43
+  - first:
+      213: -8661958271604112420
+    second: SPR_Prep_Roll_SalmonFilling_44
+  - first:
+      213: -5602709397814129308
+    second: SPR_Prep_Roll_SalmonFilling_45
+  - first:
+      213: -1575421451559356489
+    second: SPR_Prep_Roll_SalmonFilling_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 533
+        width: 207
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcaa680621a2403a0800000000000000
+      internalID: -6700184087203239219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 491
+        width: 439
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794650bbad17a1a30800000000000000
+      internalID: 4186783987848799383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 507
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704a062c333aaa090800000000000000
+      internalID: -8022420343507344377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_3
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 517
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b1c34875d0fd420800000000000000
+      internalID: 2656856974703729412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_4
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 572
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fcabd44821241f10800000000000000
+      internalID: 2239451371547634928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_5
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 522
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d7b4bcad98c79d0800000000000000
+      internalID: -2775191697560470208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_6
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 513
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c461156e93aefb10800000000000000
+      internalID: 2017229583804359880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_7
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 496
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b36e24a4d8e6500800000000000000
+      internalID: 391405567717292947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_8
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 523
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a387c31f6ee913930800000000000000
+      internalID: 4121249848747653178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_9
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 563
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f202f663bff2489f0800000000000000
+      internalID: -467195705343139793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_10
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 491
+        width: 471
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbef73000d65b3c0800000000000000
+      internalID: -4344446418702832704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_11
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 517
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99fa8b5c81dd52380800000000000000
+      internalID: -8996541582136528999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_12
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 515
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98dbeb899c7f52db0800000000000000
+      internalID: -4817171781179753079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_13
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 507
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bcbb16a8cdba14f0800000000000000
+      internalID: -857164109582713677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_14
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 511
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62810a9ad0e079be0800000000000000
+      internalID: -1470691301469972442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_15
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 513
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c576e891b6b5f24b0800000000000000
+      internalID: -5463047307428731044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_16
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 509
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d179b4ed8a09dc520800000000000000
+      internalID: 2723992404587419421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_17
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 506
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d769903f0594bfe0800000000000000
+      internalID: -1174149710364448814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_18
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 546
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52cea4584980b6f60800000000000000
+      internalID: 8028520194702502949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_19
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 516
+        width: 92
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aecef381249f92540800000000000000
+      internalID: 4983788524932164842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_20
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 628
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f1077eaa1fac020800000000000000
+      internalID: 2362966670838865728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_21
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 499
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46645b97985c917e0800000000000000
+      internalID: -1794185782287317404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_22
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 650
+        width: 66
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5372b70c2e9e6e1f0800000000000000
+      internalID: -1015867505824291019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_23
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 509
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5bf87480159863f0800000000000000
+      internalID: -907311426740618403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_24
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 511
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab3215cc9bca21b0800000000000000
+      internalID: -5680504105792816222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_25
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 619
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214404ec120fdd6c0800000000000000
+      internalID: -4116870456361860078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_26
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 509
+        width: 39
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8d489ec93054cd0800000000000000
+      internalID: -2574647639504791372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_27
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 654
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b34a6e3591eabba0800000000000000
+      internalID: -6072293116442164301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_28
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 495
+        width: 182
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f31a62052346f470800000000000000
+      internalID: 8427997578903819251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_29
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 21
+        width: 1687
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140569dc6c3f99090800000000000000
+      internalID: -8027116825632944063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_30
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 100
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2798338f9569f8870800000000000000
+      internalID: 8687327519381358962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_31
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 104
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a0175305b5a3560800000000000000
+      internalID: 7294242946532051462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_32
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 81
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163c5049f958dcb50800000000000000
+      internalID: 6615090348106826593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_33
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 156
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a702390de3faa80800000000000000
+      internalID: -8453468910008632732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_34
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 18
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83569c864a80b4250800000000000000
+      internalID: 5929842836589077816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_35
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 98
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5469fe3e7b40a5e0800000000000000
+      internalID: -1900436037155855266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_36
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 98
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ecd1cb882f2a1d40800000000000000
+      internalID: 5555804941504863459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_37
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 96
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f8c84d9481f7bd0800000000000000
+      internalID: -2630356951983419604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_38
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 130
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210835d806356b330800000000000000
+      internalID: 3726257415848689682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_39
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 127
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c3c0f5350945d30800000000000000
+      internalID: 4419315822108621833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_40
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 112
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ccaebb0c17d0930800000000000000
+      internalID: 4111067107459517574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_41
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 65
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e4f6117224f037d0800000000000000
+      internalID: -2940582127909538585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_42
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 65
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80804dcf30d8df9c0800000000000000
+      internalID: -3891799454712068088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_43
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 110
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f341b8dec778d400800000000000000
+      internalID: 349160701403677683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_44
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 110
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd3c7c158da8ac780800000000000000
+      internalID: -8661958271604112420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_45
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 107
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46dcb83bc7d2f32b0800000000000000
+      internalID: -5602709397814129308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Prep_Roll_SalmonFilling_46
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 112
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b73648698af22ae0800000000000000
+      internalID: -1575421451559356489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SPR_Prep_Roll_SalmonFilling_0: -6700184087203239219
+      SPR_Prep_Roll_SalmonFilling_1: 4186783987848799383
+      SPR_Prep_Roll_SalmonFilling_10: -4344446418702832704
+      SPR_Prep_Roll_SalmonFilling_11: -8996541582136528999
+      SPR_Prep_Roll_SalmonFilling_12: -4817171781179753079
+      SPR_Prep_Roll_SalmonFilling_13: -857164109582713677
+      SPR_Prep_Roll_SalmonFilling_14: -1470691301469972442
+      SPR_Prep_Roll_SalmonFilling_15: -5463047307428731044
+      SPR_Prep_Roll_SalmonFilling_16: 2723992404587419421
+      SPR_Prep_Roll_SalmonFilling_17: -1174149710364448814
+      SPR_Prep_Roll_SalmonFilling_18: 8028520194702502949
+      SPR_Prep_Roll_SalmonFilling_19: 4983788524932164842
+      SPR_Prep_Roll_SalmonFilling_2: -8022420343507344377
+      SPR_Prep_Roll_SalmonFilling_20: 2362966670838865728
+      SPR_Prep_Roll_SalmonFilling_21: -1794185782287317404
+      SPR_Prep_Roll_SalmonFilling_22: -1015867505824291019
+      SPR_Prep_Roll_SalmonFilling_23: -907311426740618403
+      SPR_Prep_Roll_SalmonFilling_24: -5680504105792816222
+      SPR_Prep_Roll_SalmonFilling_25: -4116870456361860078
+      SPR_Prep_Roll_SalmonFilling_26: -2574647639504791372
+      SPR_Prep_Roll_SalmonFilling_27: -6072293116442164301
+      SPR_Prep_Roll_SalmonFilling_28: 8427997578903819251
+      SPR_Prep_Roll_SalmonFilling_29: -8027116825632944063
+      SPR_Prep_Roll_SalmonFilling_3: 2656856974703729412
+      SPR_Prep_Roll_SalmonFilling_30: 8687327519381358962
+      SPR_Prep_Roll_SalmonFilling_31: 7294242946532051462
+      SPR_Prep_Roll_SalmonFilling_32: 6615090348106826593
+      SPR_Prep_Roll_SalmonFilling_33: -8453468910008632732
+      SPR_Prep_Roll_SalmonFilling_34: 5929842836589077816
+      SPR_Prep_Roll_SalmonFilling_35: -1900436037155855266
+      SPR_Prep_Roll_SalmonFilling_36: 5555804941504863459
+      SPR_Prep_Roll_SalmonFilling_37: -2630356951983419604
+      SPR_Prep_Roll_SalmonFilling_38: 3726257415848689682
+      SPR_Prep_Roll_SalmonFilling_39: 4419315822108621833
+      SPR_Prep_Roll_SalmonFilling_4: 2239451371547634928
+      SPR_Prep_Roll_SalmonFilling_40: 4111067107459517574
+      SPR_Prep_Roll_SalmonFilling_41: -2940582127909538585
+      SPR_Prep_Roll_SalmonFilling_42: -3891799454712068088
+      SPR_Prep_Roll_SalmonFilling_43: 349160701403677683
+      SPR_Prep_Roll_SalmonFilling_44: -8661958271604112420
+      SPR_Prep_Roll_SalmonFilling_45: -5602709397814129308
+      SPR_Prep_Roll_SalmonFilling_46: -1575421451559356489
+      SPR_Prep_Roll_SalmonFilling_5: -2775191697560470208
+      SPR_Prep_Roll_SalmonFilling_6: 2017229583804359880
+      SPR_Prep_Roll_SalmonFilling_7: 391405567717292947
+      SPR_Prep_Roll_SalmonFilling_8: 4121249848747653178
+      SPR_Prep_Roll_SalmonFilling_9: -467195705343139793
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

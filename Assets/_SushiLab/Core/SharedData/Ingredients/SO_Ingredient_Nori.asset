@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fe2b49c1783da74d9d986beeb5417f3, type: 3}
   m_Name: SO_Ingredient_Nori
   m_EditorClassIdentifier: Assembly-CSharp::IngredientData
-  id: 
-  displayName: 
+  id: nori
+  displayName: Alga Nori
   sprite: {fileID: 0}
-  price: 0
-  category: 0
+  price: 8
+  category: 2
   defaultUnits: 1

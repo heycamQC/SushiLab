@@ -1,0 +1,251 @@
+fileFormatVersion: 2
+guid: f991d9b03c6f6b040a6c64b2d26604d7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4842628251892966608
+    second: SPR_Prep_MakiClassic_Uncut_0
+  - first:
+      213: 5106770334814631238
+    second: SPR_Prep_MakiClassic_Uncut_1
+  - first:
+      213: 4255657436015406221
+    second: SPR_Prep_MakiClassic_Uncut_2
+  - first:
+      213: -3131474121166174678
+    second: SPR_Prep_MakiClassic_Uncut_3
+  - first:
+      213: 7036243878813180746
+    second: SPR_Prep_MakiClassic_Uncut_4
+  - first:
+      213: -728903777124218898
+    second: SPR_Prep_MakiClassic_Uncut_5
+  - first:
+      213: -544449894524678167
+    second: SPR_Prep_MakiClassic_Uncut_6
+  - first:
+      213: -8814454169645775290
+    second: SPR_Prep_MakiClassic_Uncut_7
+  - first:
+      213: 3469286680270951558
+    second: SPR_Prep_MakiClassic_Uncut_8
+  - first:
+      213: 1446485818173646656
+    second: SPR_Prep_MakiClassic_Uncut_9
+  - first:
+      213: -6710795537753512323
+    second: SPR_Prep_MakiClassic_Uncut_10
+  - first:
+      213: -6198721443240510873
+    second: SPR_Prep_MakiClassic_Uncut_11
+  - first:
+      213: -9068431469186577163
+    second: SPR_Prep_MakiClassic_Uncut_12
+  - first:
+      213: 3306620435661956197
+    second: SPR_Prep_MakiClassic_Uncut_13
+  - first:
+      213: 8133114403490212636
+    second: SPR_Prep_MakiClassic_Uncut_14
+  - first:
+      213: 265116969071174793
+    second: SPR_Prep_MakiClassic_Uncut_15
+  - first:
+      213: -5701833619418856356
+    second: SPR_Prep_MakiClassic_Uncut_16
+  - first:
+      213: -5137858674863052700
+    second: SPR_Prep_MakiClassic_Uncut_17
+  - first:
+      213: 8284403465754729512
+    second: SPR_Prep_MakiClassic_Uncut_18
+  - first:
+      213: -5248681436922753502
+    second: SPR_Prep_MakiClassic_Uncut_19
+  - first:
+      213: 2818910783250903575
+    second: SPR_Prep_MakiClassic_Uncut_20
+  - first:
+      213: 2454155506712684679
+    second: SPR_Prep_MakiClassic_Uncut_21
+  - first:
+      213: -6060500713310489486
+    second: SPR_Prep_MakiClassic_Uncut_22
+  - first:
+      213: -1374662335359292040
+    second: SPR_Prep_MakiClassic_Uncut_23
+  - first:
+      213: 2559979556636310811
+    second: SPR_Prep_MakiClassic_Uncut_24
+  - first:
+      213: 2794055313566389546
+    second: SPR_Prep_MakiClassic_Uncut_25
+  - first:
+      213: -5987573946112101137
+    second: SPR_Prep_MakiClassic_Uncut_26
+  - first:
+      213: 1281756934833377223
+    second: SPR_Prep_MakiClassic_Uncut_27
+  - first:
+      213: -7595410250123631395
+    second: SPR_Prep_MakiClassic_Uncut_28
+  - first:
+      213: -6226331848193320890
+    second: SPR_Prep_MakiClassic_Uncut_29
+  - first:
+      213: 845518581475039201
+    second: SPR_Prep_MakiClassic_Uncut_30
+  - first:
+      213: 7651959604137729886
+    second: SPR_Prep_MakiClassic_Uncut_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPR_Prep_MakiClassic_Uncut_0
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 84
+        width: 1625
+        height: 545
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4e95ddcb8743340800000000000000
+      internalID: 4842628251892966608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":2172.0,"y":724.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      SPR_Prep_MakiClassic_Uncut_0: 4842628251892966608
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
