@@ -1,0 +1,273 @@
+fileFormatVersion: 2
+guid: aa41a6df44a931c479c1a1f1c9045a5d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4325586427200486765
+    second: SPR_Ingredient_Tuna_0
+  - first:
+      213: -8397123681820729413
+    second: SPR_Ingredient_Tuna_1
+  - first:
+      213: -8782741317536433657
+    second: SPR_Ingredient_Tuna_2
+  - first:
+      213: -7880542090179004806
+    second: SPR_Ingredient_Tuna_3
+  - first:
+      213: 5895358899791814320
+    second: SPR_Ingredient_Tuna_4
+  - first:
+      213: -2221276314421737940
+    second: SPR_Ingredient_Tuna_5
+  - first:
+      213: -4114219201049237831
+    second: SPR_Ingredient_Tuna_6
+  - first:
+      213: -5184401054813778554
+    second: SPR_Ingredient_Tuna_7
+  - first:
+      213: 740417661552047778
+    second: SPR_Ingredient_Tuna_8
+  - first:
+      213: -2361130048368774690
+    second: SPR_Ingredient_Tuna_9
+  - first:
+      213: -7429650102793739839
+    second: SPR_Ingredient_Tuna_10
+  - first:
+      213: 1971960858133877988
+    second: SPR_Ingredient_Tuna_11
+  - first:
+      213: 101476275902264227
+    second: SPR_Ingredient_Tuna_12
+  - first:
+      213: 8833919152602169579
+    second: SPR_Ingredient_Tuna_13
+  - first:
+      213: 4497806167796796335
+    second: SPR_Ingredient_Tuna_14
+  - first:
+      213: -6477487111313334012
+    second: SPR_Ingredient_Tuna_15
+  - first:
+      213: 8429060800370989051
+    second: SPR_Ingredient_Tuna_16
+  - first:
+      213: 4014150740076198192
+    second: SPR_Ingredient_Tuna_17
+  - first:
+      213: 5911381271904202354
+    second: SPR_Ingredient_Tuna_18
+  - first:
+      213: 2791957769762492040
+    second: SPR_Ingredient_Tuna_19
+  - first:
+      213: 2438048984650630150
+    second: SPR_Ingredient_Tuna_20
+  - first:
+      213: 2114948627213828023
+    second: SPR_Ingredient_Tuna_21
+  - first:
+      213: 6467918390211122691
+    second: SPR_Ingredient_Tuna_22
+  - first:
+      213: -4008998902808671920
+    second: SPR_Ingredient_Tuna_23
+  - first:
+      213: 4080782818666234447
+    second: SPR_Ingredient_Tuna_24
+  - first:
+      213: -5370240459769562025
+    second: SPR_Ingredient_Tuna_25
+  - first:
+      213: -7483910073889183603
+    second: SPR_Ingredient_Tuna_26
+  - first:
+      213: 6390460026750739842
+    second: SPR_Ingredient_Tuna_27
+  - first:
+      213: -3708365526772415617
+    second: SPR_Ingredient_Tuna_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 168, y: 136, z: 170, w: 170}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPR_Ingredient_Tuna_29
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 145
+        width: 1100
+        height: 762
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc19852c9ad87a641a8e5619e407ca4c
+      internalID: -1910876322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceOnImport
+        value: False
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      SPR_Ingredient_Tuna_0: 4325586427200486765
+      SPR_Ingredient_Tuna_1: -8397123681820729413
+      SPR_Ingredient_Tuna_10: -7429650102793739839
+      SPR_Ingredient_Tuna_11: 1971960858133877988
+      SPR_Ingredient_Tuna_12: 101476275902264227
+      SPR_Ingredient_Tuna_13: 8833919152602169579
+      SPR_Ingredient_Tuna_14: 4497806167796796335
+      SPR_Ingredient_Tuna_15: -6477487111313334012
+      SPR_Ingredient_Tuna_16: 8429060800370989051
+      SPR_Ingredient_Tuna_17: 4014150740076198192
+      SPR_Ingredient_Tuna_18: 5911381271904202354
+      SPR_Ingredient_Tuna_19: 2791957769762492040
+      SPR_Ingredient_Tuna_2: -8782741317536433657
+      SPR_Ingredient_Tuna_20: 2438048984650630150
+      SPR_Ingredient_Tuna_21: 2114948627213828023
+      SPR_Ingredient_Tuna_22: 6467918390211122691
+      SPR_Ingredient_Tuna_23: -4008998902808671920
+      SPR_Ingredient_Tuna_24: 4080782818666234447
+      SPR_Ingredient_Tuna_25: -5370240459769562025
+      SPR_Ingredient_Tuna_26: -7483910073889183603
+      SPR_Ingredient_Tuna_27: 6390460026750739842
+      SPR_Ingredient_Tuna_28: -3708365526772415617
+      SPR_Ingredient_Tuna_29: -1910876322
+      SPR_Ingredient_Tuna_3: -7880542090179004806
+      SPR_Ingredient_Tuna_4: 5895358899791814320
+      SPR_Ingredient_Tuna_5: -2221276314421737940
+      SPR_Ingredient_Tuna_6: -4114219201049237831
+      SPR_Ingredient_Tuna_7: -5184401054813778554
+      SPR_Ingredient_Tuna_8: 740417661552047778
+      SPR_Ingredient_Tuna_9: -2361130048368774690
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

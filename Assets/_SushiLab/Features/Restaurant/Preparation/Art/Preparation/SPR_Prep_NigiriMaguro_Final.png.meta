@@ -1,0 +1,188 @@
+fileFormatVersion: 2
+guid: ed9b952856b673445843f8d3f10b61dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2819506512697052929
+    second: SPR_Prep_NigiriMaguro_Final_0
+  - first:
+      213: -437412146874455899
+    second: SPR_Prep_NigiriMaguro_Final_1
+  - first:
+      213: -8712373750316073372
+    second: SPR_Prep_NigiriMaguro_Final_2
+  - first:
+      213: 7998938552164092649
+    second: SPR_Prep_NigiriMaguro_Final_3
+  - first:
+      213: 2617097317597516857
+    second: SPR_Prep_NigiriMaguro_Final_4
+  - first:
+      213: -8035353783901902791
+    second: SPR_Prep_NigiriMaguro_Final_5
+  - first:
+      213: 716957170994464186
+    second: SPR_Prep_NigiriMaguro_Final_6
+  - first:
+      213: 4260947701995385900
+    second: SPR_Prep_NigiriMaguro_Final_7
+  - first:
+      213: -1187164316847424805
+    second: SPR_Prep_NigiriMaguro_Final_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPR_Prep_NigiriMaguro_Final_0
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 381
+        width: 784
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0baccd3c91fd8d0800000000000000
+      internalID: -2819506512697052929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SPR_Prep_NigiriMaguro_Final_0: -2819506512697052929
+      SPR_Prep_NigiriMaguro_Final_1: -437412146874455899
+      SPR_Prep_NigiriMaguro_Final_2: -8712373750316073372
+      SPR_Prep_NigiriMaguro_Final_3: 7998938552164092649
+      SPR_Prep_NigiriMaguro_Final_4: 2617097317597516857
+      SPR_Prep_NigiriMaguro_Final_5: -8035353783901902791
+      SPR_Prep_NigiriMaguro_Final_6: 716957170994464186
+      SPR_Prep_NigiriMaguro_Final_7: 4260947701995385900
+      SPR_Prep_NigiriMaguro_Final_8: -1187164316847424805
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
