@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: c99124abdb029f74c8c5ec77e3d5041b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2790166308643612305
+    second: Gunkan_Ikura_0
+  - first:
+      213: 324853478831641844
+    second: Gunkan_Ikura_1
+  - first:
+      213: -5974836294016125171
+    second: Gunkan_Ikura_2
+  - first:
+      213: -8486051185520756911
+    second: Gunkan_Ikura_3
+  - first:
+      213: -3396943657578054517
+    second: Gunkan_Ikura_4
+  - first:
+      213: -2564592917008098584
+    second: Gunkan_Ikura_5
+  - first:
+      213: 5666390519754759718
+    second: Gunkan_Ikura_6
+  - first:
+      213: 6473207818348503693
+    second: Gunkan_Ikura_7
+  - first:
+      213: -6297035565116826131
+    second: Gunkan_Ikura_8
+  - first:
+      213: -3611349358545636847
+    second: Gunkan_Ikura_9
+  - first:
+      213: -7257262218102993218
+    second: Gunkan_Ikura_10
+  - first:
+      213: -3800088939286799319
+    second: Gunkan_Ikura_11
+  - first:
+      213: -5818841654864569391
+    second: Gunkan_Ikura_12
+  - first:
+      213: 2798633064425058916
+    second: Gunkan_Ikura_13
+  - first:
+      213: -1531322192008127745
+    second: Gunkan_Ikura_14
+  - first:
+      213: -1671383357917397265
+    second: Gunkan_Ikura_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gunkan_Ikura_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 796
+        width: 516
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19627fa8979a8b620800000000000000
+      internalID: 2790166308643612305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunkan_Ikura_1
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1076
+        width: 244
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f45fc1948c128400800000000000000
+      internalID: 324853478831641844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunkan_Ikura_2
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 87
+        width: 403
+        height: 1124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07be00fb0e151da0800000000000000
+      internalID: -5974836294016125171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunkan_Ikura_3
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 35
+        width: 836
+        height: 889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157b045686d7b3a80800000000000000
+      internalID: -8486051185520756911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunkan_Ikura_4
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 680
+        width: 59
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c3b00cdb1abd0d0800000000000000
+      internalID: -3396943657578054517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunkan_Ikura_5
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 296
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eadf3c645cb86cd0800000000000000
+      internalID: -2564592917008098584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunkan_Ikura_6
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 272
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e9f98e72013ae40800000000000000
+      internalID: 5666390519754759718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunkan_Ikura_7
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 264
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82a1f9d63475d950800000000000000
+      internalID: 6473207818348503693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunkan_Ikura_8
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 264
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dedd533448f6c98a0800000000000000
+      internalID: -6297035565116826131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunkan_Ikura_9
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 243
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1127d0464e8e1edc0800000000000000
+      internalID: -3611349358545636847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunkan_Ikura_10
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 248
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe8b189676094b90800000000000000
+      internalID: -7257262218102993218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunkan_Ikura_11
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 175
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c5be25e3f534bc0800000000000000
+      internalID: -3800088939286799319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunkan_Ikura_12
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 181
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db1d8d28525f3fa0800000000000000
+      internalID: -5818841654864569391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunkan_Ikura_13
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 162
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 462f7bdb1fdb6d620800000000000000
+      internalID: 2798633064425058916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunkan_Ikura_14
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 160
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffadea46496afbae0800000000000000
+      internalID: -1531322192008127745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunkan_Ikura_15
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 119
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee75dbf0bd0ec8e0800000000000000
+      internalID: -1671383357917397265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Gunkan_Ikura_0: 2790166308643612305
+      Gunkan_Ikura_1: 324853478831641844
+      Gunkan_Ikura_10: -7257262218102993218
+      Gunkan_Ikura_11: -3800088939286799319
+      Gunkan_Ikura_12: -5818841654864569391
+      Gunkan_Ikura_13: 2798633064425058916
+      Gunkan_Ikura_14: -1531322192008127745
+      Gunkan_Ikura_15: -1671383357917397265
+      Gunkan_Ikura_2: -5974836294016125171
+      Gunkan_Ikura_3: -8486051185520756911
+      Gunkan_Ikura_4: -3396943657578054517
+      Gunkan_Ikura_5: -2564592917008098584
+      Gunkan_Ikura_6: 5666390519754759718
+      Gunkan_Ikura_7: 6473207818348503693
+      Gunkan_Ikura_8: -6297035565116826131
+      Gunkan_Ikura_9: -3611349358545636847
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

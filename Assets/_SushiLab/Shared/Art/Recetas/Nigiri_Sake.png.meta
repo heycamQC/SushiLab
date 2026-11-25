@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: d699edecb27f5a14695ff1a26f6b57aa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7994043419062065339
+    second: Nigiri_Sake_0
+  - first:
+      213: -5596419003310514159
+    second: Nigiri_Sake_1
+  - first:
+      213: -8840874343503437518
+    second: Nigiri_Sake_2
+  - first:
+      213: -7134376341643834551
+    second: Nigiri_Sake_3
+  - first:
+      213: 675120947112817978
+    second: Nigiri_Sake_4
+  - first:
+      213: -4057519099962945905
+    second: Nigiri_Sake_5
+  - first:
+      213: -1123263973964537208
+    second: Nigiri_Sake_6
+  - first:
+      213: -5160085135194264274
+    second: Nigiri_Sake_7
+  - first:
+      213: 1438139862571820647
+    second: Nigiri_Sake_8
+  - first:
+      213: -3714499373938583905
+    second: Nigiri_Sake_9
+  - first:
+      213: -5331241019531546851
+    second: Nigiri_Sake_10
+  - first:
+      213: 8738705659960182392
+    second: Nigiri_Sake_11
+  - first:
+      213: 7435077761826854512
+    second: Nigiri_Sake_12
+  - first:
+      213: -169686315905277652
+    second: Nigiri_Sake_13
+  - first:
+      213: 8550308663817007602
+    second: Nigiri_Sake_14
+  - first:
+      213: 2429530261926820411
+    second: Nigiri_Sake_15
+  - first:
+      213: -6973471831895034293
+    second: Nigiri_Sake_16
+  - first:
+      213: 2754157002631703987
+    second: Nigiri_Sake_17
+  - first:
+      213: 8163687203663247900
+    second: Nigiri_Sake_18
+  - first:
+      213: -1752771667102874382
+    second: Nigiri_Sake_19
+  - first:
+      213: -6510046673312821514
+    second: Nigiri_Sake_20
+  - first:
+      213: -6976495677748747731
+    second: Nigiri_Sake_21
+  - first:
+      213: -7064683813476202709
+    second: Nigiri_Sake_22
+  - first:
+      213: -4101032091233622568
+    second: Nigiri_Sake_23
+  - first:
+      213: 3329452540638460815
+    second: Nigiri_Sake_24
+  - first:
+      213: -8598707544349154682
+    second: Nigiri_Sake_25
+  - first:
+      213: -855716285028201886
+    second: Nigiri_Sake_26
+  - first:
+      213: 6215142223333184110
+    second: Nigiri_Sake_27
+  - first:
+      213: 3913859738016479079
+    second: Nigiri_Sake_28
+  - first:
+      213: 7695603370014302587
+    second: Nigiri_Sake_29
+  - first:
+      213: 3522997110508422786
+    second: Nigiri_Sake_30
+  - first:
+      213: -1802028049211810353
+    second: Nigiri_Sake_31
+  - first:
+      213: -9003002524536833386
+    second: Nigiri_Sake_32
+  - first:
+      213: -3488118768804714994
+    second: Nigiri_Sake_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nigiri_Sake_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 539
+        width: 236
+        height: 649
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb85e38a22c80fe60800000000000000
+      internalID: 7994043419062065339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_1
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 923
+        width: 237
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1106e6d41968552b0800000000000000
+      internalID: -5596419003310514159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_2
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 746
+        width: 550
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 231ec9320a7ee4580800000000000000
+      internalID: -8840874343503437518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_3
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 996
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b4e5e448a9dfc90800000000000000
+      internalID: -7134376341643834551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_4
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 941
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35b519ace28e5900800000000000000
+      internalID: 675120947112817978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1143
+        height: 902
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8e885150ebc0b7c0800000000000000
+      internalID: -4057519099962945905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_6
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 803
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882a9d2fd5d5960f0800000000000000
+      internalID: -1123263973964537208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_7
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 773
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2de8f9a8e1b368b0800000000000000
+      internalID: -5160085135194264274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_8
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 779
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7662cedd59c45f310800000000000000
+      internalID: 1438139862571820647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_9
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 690
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96daf9ef72737cc0800000000000000
+      internalID: -3714499373938583905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_10
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 650
+        width: 84
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1fa4d2f980a306b0800000000000000
+      internalID: -5331241019531546851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_11
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 522
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8764f928f7e164970800000000000000
+      internalID: 8738705659960182392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_12
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 304
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0769817e4d3be2760800000000000000
+      internalID: 7435077761826854512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_13
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 335
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21a839d13725adf0800000000000000
+      internalID: -169686315905277652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_14
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 358
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1f1c2ad6cc8a670800000000000000
+      internalID: 8550308663817007602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_15
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 361
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ab539a6ec67b120800000000000000
+      internalID: 2429530261926820411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_16
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 256
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4634b0e050493f90800000000000000
+      internalID: -6973471831895034293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_17
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 287
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd6485a33bb83620800000000000000
+      internalID: 2754157002631703987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_18
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 320
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1affb7324e3b4170800000000000000
+      internalID: 8163687203663247900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_19
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 423
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4c6f19477eca7e0800000000000000
+      internalID: -1752771667102874382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_20
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 423
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fec9f5da0ba7a5a0800000000000000
+      internalID: -6510046673312821514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_21
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 254
+        width: 80
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22ecb6e4228e2f90800000000000000
+      internalID: -6976495677748747731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_22
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 240
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b278c4f708335fd90800000000000000
+      internalID: -7064683813476202709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_23
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 224
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d5ea8d8a053617c0800000000000000
+      internalID: -4101032091233622568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_24
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 168
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8bf64d0277943e20800000000000000
+      internalID: 3329452540638460815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_25
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 148
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682e89bdb014ba880800000000000000
+      internalID: -8598707544349154682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_26
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 154
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a80629292ef14f0800000000000000
+      internalID: -855716285028201886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_27
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 140
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e625e424cee904650800000000000000
+      internalID: 6215142223333184110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_28
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 119
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767fc29f1b2d05630800000000000000
+      internalID: 3913859738016479079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_29
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 106
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b716002fd764cca60800000000000000
+      internalID: 7695603370014302587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_30
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 104
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2860594d43334e030800000000000000
+      internalID: 3522997110508422786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_31
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 87
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcd907b6909edf6e0800000000000000
+      internalID: -1802028049211810353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_32
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 85
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a790567e8ee0380800000000000000
+      internalID: -9003002524536833386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigiri_Sake_33
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 47
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06a50be576b79fc0800000000000000
+      internalID: -3488118768804714994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Nigiri_Sake_0: 7994043419062065339
+      Nigiri_Sake_1: -5596419003310514159
+      Nigiri_Sake_10: -5331241019531546851
+      Nigiri_Sake_11: 8738705659960182392
+      Nigiri_Sake_12: 7435077761826854512
+      Nigiri_Sake_13: -169686315905277652
+      Nigiri_Sake_14: 8550308663817007602
+      Nigiri_Sake_15: 2429530261926820411
+      Nigiri_Sake_16: -6973471831895034293
+      Nigiri_Sake_17: 2754157002631703987
+      Nigiri_Sake_18: 8163687203663247900
+      Nigiri_Sake_19: -1752771667102874382
+      Nigiri_Sake_2: -8840874343503437518
+      Nigiri_Sake_20: -6510046673312821514
+      Nigiri_Sake_21: -6976495677748747731
+      Nigiri_Sake_22: -7064683813476202709
+      Nigiri_Sake_23: -4101032091233622568
+      Nigiri_Sake_24: 3329452540638460815
+      Nigiri_Sake_25: -8598707544349154682
+      Nigiri_Sake_26: -855716285028201886
+      Nigiri_Sake_27: 6215142223333184110
+      Nigiri_Sake_28: 3913859738016479079
+      Nigiri_Sake_29: 7695603370014302587
+      Nigiri_Sake_3: -7134376341643834551
+      Nigiri_Sake_30: 3522997110508422786
+      Nigiri_Sake_31: -1802028049211810353
+      Nigiri_Sake_32: -9003002524536833386
+      Nigiri_Sake_33: -3488118768804714994
+      Nigiri_Sake_4: 675120947112817978
+      Nigiri_Sake_5: -4057519099962945905
+      Nigiri_Sake_6: -1123263973964537208
+      Nigiri_Sake_7: -5160085135194264274
+      Nigiri_Sake_8: 1438139862571820647
+      Nigiri_Sake_9: -3714499373938583905
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
