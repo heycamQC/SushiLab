@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::IngredientData
   id: nori
   displayName: Alga Nori
-  sprite: {fileID: 0}
+  sprite: {fileID: 4860911142892235602, guid: e0873270e8a32014480855aebb86d946, type: 3}
   price: 8
   category: 2
   defaultUnits: 1

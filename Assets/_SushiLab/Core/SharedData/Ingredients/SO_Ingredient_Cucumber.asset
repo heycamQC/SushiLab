@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::IngredientData
   id: cucumber
   displayName: Pepino
-  sprite: {fileID: 0}
+  sprite: {fileID: 7999196981384504614, guid: f6bdeb3ee06d29746ae92a52ff0dc22d, type: 3}
   price: 5
   category: 3
   defaultUnits: 1

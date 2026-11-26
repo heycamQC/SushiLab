@@ -36,6 +36,10 @@ public class BootstrapLoader : MonoBehaviour
         // startingBalance es 50 por defecto
         EconomyManager.Instance.Initialize(new PlayFabUserDataBackend(50)); 
     }
+    EconomyManager.Instance.Initialize(new PlayFabUserDataBackend(50), () =>
+{
+    Debug.Log("Economía lista y sincronizada con PlayFab.");
+});
 }
 
     private void OnLoginFailure(PlayFabError error)
