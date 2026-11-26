@@ -219,42 +219,32 @@ public class TicTacToeController : MonoBehaviour
         ActualizarEstado("Fin de la serie");
     }
 
-    private void OtorgarRecompensaSerie()
+     private void OtorgarRecompensaSerie()
     {
-        DailyRewardManager dailyRewardManager = DailyRewardManager.Instance;
-        if (dailyRewardManager == null)
+        // 1. Verificamos el límite
+        if (DailyRewardManager.Instance == null || !DailyRewardManager.Instance.CanPlayForReward())
         {
-            Debug.LogWarning("TicTacToe: no se encontro DailyRewardManager; no se otorgo recompensa.");
-            return;
+            Debug.Log("TicTacToe: Límite diario de recompensas alcanzado.");
+            return; 
         }
 
-        if (!dailyRewardManager.CanPlayForReward())
-        {
-            Debug.Log("TicTacToe: se alcanzo el limite diario de partidas recompensadas.");
-            return;
-        }
-
-        int reward = Mathf.RoundToInt(
-            20f * victoriasJugador / Mathf.Max(totalPartidas, 1)
-        );
+        int reward = victoriasJugador * 5;
 
         if (reward > 0)
         {
-            EconomyManager economyManager = EconomyManager.Instance;
-            if (economyManager == null)
+            string txId = "tictactoe_" + System.Guid.NewGuid().ToString();
+            if (EconomyManager.Instance.AddSushiDollars(reward, txId))
             {
-                Debug.LogError("TicTacToe: no se encontro EconomyManager; no se otorgo recompensa.");
-                return;
-            }
-
-            if (!economyManager.AddSushiDollars(reward, $"tictactoe-{System.Guid.NewGuid():N}"))
-            {
-                Debug.LogError("TicTacToe: no se pudo agregar la recompensa de SushiDólares.");
-                return;
+                // 2. Registramos la partida usada
+                DailyRewardManager.Instance.RegisterMatchPlayed();
+                Debug.Log($"TicTacToe: +{reward} SushiDólares.");
             }
         }
-
-        dailyRewardManager.RegisterMatchPlayed();
+        else
+        {
+            // Si ganó 0 partidas, también gasta la oportunidad
+            DailyRewardManager.Instance.RegisterMatchPlayed();
+        }
     }
 
     // ------------------------------------------------------------------

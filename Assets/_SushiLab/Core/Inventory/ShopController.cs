@@ -1,23 +1,56 @@
-using UnityEngine;
-using UnityEngine.UI;
-using TMPro;
 using System.Collections.Generic;
+using UnityEngine;
 
 public class ShopController : MonoBehaviour
 {
-    [SerializeField] private List<IngredientData> ingredientesDisponibles;
-    [SerializeField] private Transform shopContentParent;
+    [Header("Configuración de la Tienda")]
+    [SerializeField] private Transform contenedorItems;
+    [SerializeField] private ShopItemUI prefabShopItem;
 
-    private void Start()
+    [Header("Catálogo")]
+    [SerializeField] private List<IngredientData> catalogoIngredientes;
+
+    [Header("Progreso (Pruebas)")]
+    [Tooltip("Cambia este número para probar el bloqueo de los candados.")]
+    [SerializeField] private int diaActualDePrueba = 1;
+
+    private void OnEnable()
     {
-        // Aquí podrías inicializar la UI de la tienda con los ingredientes disponibles
-        foreach (var ingrediente in ingredientesDisponibles)
+        PoblarTienda();
+    }
+
+    private void PoblarTienda()
+    {
+        if (contenedorItems == null)
         {
-            // Crear un nuevo elemento de UI para cada ingrediente
-            GameObject itemUI = Instantiate(Resources.Load<GameObject>("ShopItem"), shopContentParent);
-            ShopItemUI shopItemUI = itemUI.GetComponent<ShopItemUI>();
-            shopItemUI.Configurar(ingrediente);
+            Debug.LogError("ShopController: falta asignar el contenedor de items.", this);
+            return;
+        }
+
+        if (prefabShopItem == null)
+        {
+            Debug.LogError("ShopController: falta asignar el prefab ShopItem.", this);
+            return;
+        }
+
+        if (catalogoIngredientes == null)
+        {
+            Debug.LogError("ShopController: falta asignar el catálogo de ingredientes.", this);
+            return;
+        }
+
+        foreach (Transform child in contenedorItems)
+        {
+            Destroy(child.gameObject);
+        }
+
+        foreach (var ingrediente in catalogoIngredientes)
+        {
+            if (ingrediente != null)
+            {
+                ShopItemUI nuevoItem = Instantiate(prefabShopItem, contenedorItems);
+                nuevoItem.Configurar(ingrediente, diaActualDePrueba);
+            }
         }
     }
-  
 }

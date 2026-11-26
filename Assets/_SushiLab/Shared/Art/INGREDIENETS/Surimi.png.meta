@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 2c52d521a7d032b48948e4cb757e5fbd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 293518898217820791
+    second: Surimi_0
+  - first:
+      213: -696799595599315815
+    second: Surimi_1
+  - first:
+      213: 7623544772085905734
+    second: Surimi_2
+  - first:
+      213: -8653671111953231136
+    second: Surimi_3
+  - first:
+      213: 5923014262771769666
+    second: Surimi_4
+  - first:
+      213: -6387336186657838044
+    second: Surimi_5
+  - first:
+      213: 1704801760974328098
+    second: Surimi_6
+  - first:
+      213: -1925300290120473779
+    second: Surimi_7
+  - first:
+      213: -1033019221027162188
+    second: Surimi_8
+  - first:
+      213: 4722521318928915658
+    second: Surimi_9
+  - first:
+      213: 4611433430151404892
+    second: Surimi_10
+  - first:
+      213: 1736160380856193866
+    second: Surimi_11
+  - first:
+      213: -5603409564738776445
+    second: Surimi_12
+  - first:
+      213: -8206503008155792100
+    second: Surimi_13
+  - first:
+      213: -1845285187965466453
+    second: Surimi_14
+  - first:
+      213: 6179961935218589508
+    second: Surimi_15
+  - first:
+      213: -8506727179487845029
+    second: Surimi_16
+  - first:
+      213: -807239158883300853
+    second: Surimi_17
+  - first:
+      213: 4886301211688840330
+    second: Surimi_18
+  - first:
+      213: -6985765351368534976
+    second: Surimi_19
+  - first:
+      213: -6663071662816665709
+    second: Surimi_20
+  - first:
+      213: 7007537966981694245
+    second: Surimi_21
+  - first:
+      213: -3154601107061272118
+    second: Surimi_22
+  - first:
+      213: -6822468437516525071
+    second: Surimi_23
+  - first:
+      213: -2448265109476705418
+    second: Surimi_24
+  - first:
+      213: -7813891433501226873
+    second: Surimi_25
+  - first:
+      213: -6635452351662997927
+    second: Surimi_26
+  - first:
+      213: -270535618839255726
+    second: Surimi_27
+  - first:
+      213: -5949125180892986848
+    second: Surimi_28
+  - first:
+      213: -3605983576647837616
+    second: Surimi_29
+  - first:
+      213: 9099510033073087674
+    second: Surimi_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Surimi_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1465
+        height: 1039
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772232ff1e9c21400800000000000000
+      internalID: 293518898217820791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_1
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1013
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99cbaa8a5787456f0800000000000000
+      internalID: -696799595599315815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_2
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 993
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649777534954cc960800000000000000
+      internalID: 7623544772085905734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_3
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 953
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2d7f809fbf7e780800000000000000
+      internalID: -8653671111953231136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_4
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 955
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241651c2716c23250800000000000000
+      internalID: 5923014262771769666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_5
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 615
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ce24d649f9b57a0800000000000000
+      internalID: -6387336186657838044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_6
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 594
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 221d55f4b2ca8a710800000000000000
+      internalID: 1704801760974328098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_7
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 577
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d43a9693695f745e0800000000000000
+      internalID: -1925300290120473779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_8
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 589
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7768cdd7af9a1f0800000000000000
+      internalID: -1033019221027162188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_9
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 558
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc97fa5e14c98140800000000000000
+      internalID: 4722521318928915658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_10
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 555
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d1985b54a1fff30800000000000000
+      internalID: 4611433430151404892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_11
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 537
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a435a06faa4181810800000000000000
+      internalID: 1736160380856193866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 547
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38218b260b0bc32b0800000000000000
+      internalID: -5603409564738776445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_13
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 506
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d03b67ef4ac1e80800000000000000
+      internalID: -8206503008155792100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_14
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 483
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba84706f5ea3466e0800000000000000
+      internalID: -1845285187965466453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_15
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 408
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44fb32223a2a3c550800000000000000
+      internalID: 6179961935218589508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_16
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 386
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55677963b802f980800000000000000
+      internalID: -8506727179487845029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_17
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 392
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ac9fd034c1cc4f0800000000000000
+      internalID: -807239158883300853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_18
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 366
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c26443011afc340800000000000000
+      internalID: 4886301211688840330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_19
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 342
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0445273dc639d0f90800000000000000
+      internalID: -6985765351368534976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_20
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 322
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f57d800a30883a0800000000000000
+      internalID: -6663071662816665709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_21
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 210
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523c10847a6cf3160800000000000000
+      internalID: 7007537966981694245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_22
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 194
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac11f85c10b9834d0800000000000000
+      internalID: -3154601107061272118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_23
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 162
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f163826a19b151a0800000000000000
+      internalID: -6822468437516525071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_24
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 33
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b78a9bad3060ed0800000000000000
+      internalID: -2448265109476705418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_25
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 45
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78801b8142b7f8390800000000000000
+      internalID: -7813891433501226873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_26
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 43
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95eb8170e332ae3a0800000000000000
+      internalID: -6635452351662997927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_27
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 39
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255eefbb94dde3cf0800000000000000
+      internalID: -270535618839255726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_28
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 39
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 022ca84fa26707da0800000000000000
+      internalID: -5949125180892986848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_29
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 39
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0585308da09f4fdc0800000000000000
+      internalID: -3605983576647837616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surimi_30
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 23
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4ac6fe924f74e70800000000000000
+      internalID: 9099510033073087674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Surimi_0: 293518898217820791
+      Surimi_1: -696799595599315815
+      Surimi_10: 4611433430151404892
+      Surimi_11: 1736160380856193866
+      Surimi_12: -5603409564738776445
+      Surimi_13: -8206503008155792100
+      Surimi_14: -1845285187965466453
+      Surimi_15: 6179961935218589508
+      Surimi_16: -8506727179487845029
+      Surimi_17: -807239158883300853
+      Surimi_18: 4886301211688840330
+      Surimi_19: -6985765351368534976
+      Surimi_2: 7623544772085905734
+      Surimi_20: -6663071662816665709
+      Surimi_21: 7007537966981694245
+      Surimi_22: -3154601107061272118
+      Surimi_23: -6822468437516525071
+      Surimi_24: -2448265109476705418
+      Surimi_25: -7813891433501226873
+      Surimi_26: -6635452351662997927
+      Surimi_27: -270535618839255726
+      Surimi_28: -5949125180892986848
+      Surimi_29: -3605983576647837616
+      Surimi_3: -8653671111953231136
+      Surimi_30: 9099510033073087674
+      Surimi_4: 5923014262771769666
+      Surimi_5: -6387336186657838044
+      Surimi_6: 1704801760974328098
+      Surimi_7: -1925300290120473779
+      Surimi_8: -1033019221027162188
+      Surimi_9: 4722521318928915658
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

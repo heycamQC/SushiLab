@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fe2b49c1783da74d9d986beeb5417f3, type: 3}
   m_Name: SO_Ingredient_Rice
   m_EditorClassIdentifier: Assembly-CSharp::IngredientData
-  id: 1
-  displayName: Rice_Base
-  sprite: {fileID: 0}
+  id: rice_shari
+  displayName: Arroz Shari
+  sprite: {fileID: 21300000, guid: 637620560da655943b9f7be28094524e, type: 3}
   price: 10
   category: 0
   defaultUnits: 1

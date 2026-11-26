@@ -3,6 +3,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
+using PlayFab;
+using PlayFab.ClientModels;
 
 public class BootstrapLoader : MonoBehaviour
 {
@@ -17,6 +19,32 @@ public class BootstrapLoader : MonoBehaviour
     void Start()
     {
         StartCoroutine(CargarEscenaAsync());
+        var request = new LoginWithCustomIDRequest
+        {
+            CustomId = SystemInfo.deviceUniqueIdentifier,
+            CreateAccount = true
+        };
+        PlayFabClientAPI.LoginWithCustomID(request, OnLoginSuccess, OnLoginFailure);
+    }
+ private void OnLoginSuccess(LoginResult result)
+{
+    Debug.Log("PlayFab Login OK");
+    
+    // Aquí conectamos la economía a PlayFab
+    if (EconomyManager.Instance != null)
+    {
+        // startingBalance es 50 por defecto
+        EconomyManager.Instance.Initialize(new PlayFabUserDataBackend(50)); 
+    }
+    EconomyManager.Instance.Initialize(new PlayFabUserDataBackend(50), () =>
+{
+    Debug.Log("Economía lista y sincronizada con PlayFab.");
+});
+}
+
+    private void OnLoginFailure(PlayFabError error)
+    {
+        Debug.LogError("PlayFab Login FAIL: " + error.GenerateErrorReport());
     }
 
     IEnumerator CargarEscenaAsync()

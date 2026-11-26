@@ -14,7 +14,7 @@ public class ArcadeController : MonoBehaviour
 
     [Header("Textos HUD (Datos Reales)")]
     [SerializeField] private TMP_Text textoSushiDolares;
-    [SerializeField] private TMP_Text textoSushiGems; // Si tienes EconomyManager para gemas, si no, lo dejamos estático o local
+    [SerializeField] private TMP_Text textoSushiGems; 
     [SerializeField] private TMP_Text textoPartidasRecompensa;
 
     // Variable local temporal para las gemas hasta que hagas el sistema de gemas en el Core
@@ -22,41 +22,43 @@ public class ArcadeController : MonoBehaviour
 
     private void Start()
     {
-        if (botonIrMainMenu != null) {
-            Debug.Log("botonIrMainMenu is not null, adding listener.");
-            botonIrMainMenu.onClick.AddListener(IrAlMainMenu);
-        }
-        if (botonIrTicTacToe != null) {
-            botonIrTicTacToe.onClick.AddListener(IrATictacToe);
-        }
-        if (botonIrMemory != null) {
-            botonIrMemory.onClick.AddListener(IrAMemory);
-        }
-        if (botonIrSushiFlappy != null) {
-            botonIrSushiFlappy.onClick.AddListener(IrASushiFlappy);
-        }
-        if (botonIrSushiTower != null) {
-            botonIrSushiTower.onClick.AddListener(IrASushiTower);
-        }
+        // Configurar botones
+        if (botonIrMainMenu != null) botonIrMainMenu.onClick.AddListener(IrAlMainMenu);
+        if (botonIrTicTacToe != null) botonIrTicTacToe.onClick.AddListener(IrATictacToe);
+        if (botonIrMemory != null) botonIrMemory.onClick.AddListener(IrAMemory);
+        if (botonIrSushiFlappy != null) botonIrSushiFlappy.onClick.AddListener(IrASushiFlappy);
+        if (botonIrSushiTower != null) botonIrSushiTower.onClick.AddListener(IrASushiTower);
 
+        // Suscribirse a los eventos
         if (EconomyManager.Instance != null)
         {
             EconomyManager.Instance.OnBalanceChanged += ActualizarTextoSushiDolares;
+        }
+        else
+        {
+            Debug.LogWarning("ArcadeController: No se encontró EconomyManager.");
         }
         
         if (DailyRewardManager.Instance != null)
         {
             DailyRewardManager.Instance.OnRewardsChanged += ActualizarTextoRecompensas;
         }
+        else
+        {
+            Debug.LogWarning("ArcadeController: No se encontró DailyRewardManager.");
+        }
+        Invoke(nameof(ActualizarTodosLosTextos), 0.5f); 
     }
 
     private void OnEnable()
     {
+        // Actualizar textos cada vez que se abre la escena
         ActualizarTodosLosTextos();
     }
 
     private void OnDestroy()
     {
+        // Desuscribirse para evitar errores de memoria
         if (EconomyManager.Instance != null)
             EconomyManager.Instance.OnBalanceChanged -= ActualizarTextoSushiDolares;
             
@@ -64,21 +66,26 @@ public class ArcadeController : MonoBehaviour
             DailyRewardManager.Instance.OnRewardsChanged -= ActualizarTextoRecompensas;
     }
 
-    private void ActualizarTodosLosTextos()
+       public void ActualizarTodosLosTextos()
     {
-        if (EconomyManager.Instance != null)
-            textoSushiDolares.text = EconomyManager.Instance.Balance.ToString();
-        else
-            textoSushiDolares.text = "0"; 
+        // 1. Sushi Dólares
+        if (textoSushiDolares != null)
+        {
+            if (EconomyManager.Instance != null)
+                textoSushiDolares.text = EconomyManager.Instance.Balance.ToString();
+            else
+                textoSushiDolares.text = "0";
+        }
 
+        // 2. Sushi Gems
         if (textoSushiGems != null)
             textoSushiGems.text = sushiGemsActuales.ToString();
 
-        if (DailyRewardManager.Instance != null)
+        // 3. Partidas con Recompensa (Límite diario)
+        if (textoPartidasRecompensa != null && DailyRewardManager.Instance != null)
         {
-            int usadas = DailyRewardManager.Instance.GetUsedRewards();
             int maximo = DailyRewardManager.Instance.GetMaxDailyRewards();
-
+            int usadas = DailyRewardManager.Instance.GetUsedRewards();
             textoPartidasRecompensa.text = $"{usadas}/{maximo}";
         }
     }
@@ -95,9 +102,12 @@ public class ArcadeController : MonoBehaviour
             textoPartidasRecompensa.text = $"{usadas}/{maximo}";
     }
 
-    
-    public void IrAlMainMenu(){ SceneManager.LoadScene("SC_MainMenu");
-    Debug.Log("Cambiando a la escena SC_MainMenu"); 
+    // ==========================================
+    // NAVEGACIÓN
+    // ==========================================
+    public void IrAlMainMenu() 
+    { 
+        SceneManager.LoadScene("SC_MainMenu"); 
     } 
     public void IrATictacToe() { SceneManager.LoadScene("MG_TicTacToe"); }
     public void IrAMemory() { SceneManager.LoadScene("MG_Memory"); }

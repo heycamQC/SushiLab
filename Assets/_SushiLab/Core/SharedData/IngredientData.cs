@@ -18,6 +18,9 @@ public class IngredientData : ScriptableObject
     [Header("Inventario")]
     [Tooltip("Unidades por compra o por defecto en inventario inicial.")]
     [Min(1)] public int defaultUnits = 1;
+        [Header("Progresión")]
+    [Tooltip("Día a partir del cual aparece en la tienda.")]
+    public int unlockDay = 1;
 }
 
 public enum IngredientCategory

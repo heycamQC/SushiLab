@@ -47,8 +47,6 @@ public class MemoryGameController : MonoBehaviour
     [SerializeField] private GameObject difficultySelectionPanel;
     [SerializeField] private MemoryDifficulty defaultDifficulty = MemoryDifficulty.Easy;
 
-    // Simulacion local del dia de Sushi Lab. El Arcade real se habilita el dia 3.
-    // Core/Progression proporcionara este dato cuando exista la integracion.
     [Header("Progreso local de prueba (no conectado a Core)")]
     [SerializeField, Min(1)] private int testRestaurantDay = 3;
 
@@ -83,6 +81,10 @@ public class MemoryGameController : MonoBehaviour
     private MemoryDifficulty currentDifficulty = MemoryDifficulty.Easy;
     private GameState currentState = GameState.SelectingDifficulty;
     private GameState stateBeforePause = GameState.Ready;
+    
+    // Variables para la recompensa
+    private bool rewardProcessed;
+  
 
     private void Start()
     {
@@ -101,8 +103,6 @@ public class MemoryGameController : MonoBehaviour
             pausePanel.SetActive(false);
         }
 
-        // Mientras no exista el menu en la escena, Facil sigue funcionando
-        // como antes. Cuando lo conectemos, el juego comenzara en el menu.
         if (difficultySelectionPanel != null)
         {
             currentState = GameState.SelectingDifficulty;
@@ -135,21 +135,9 @@ public class MemoryGameController : MonoBehaviour
         UpdateTimerDisplay();
     }
 
-    // Conectar estos metodos a los botones del menu mediante On Click().
-    public void SelectEasy()
-    {
-        StartDifficulty(MemoryDifficulty.Easy);
-    }
-
-    public void SelectNormal()
-    {
-        StartDifficulty(MemoryDifficulty.Normal);
-    }
-
-    public void SelectHard()
-    {
-        StartDifficulty(MemoryDifficulty.Hard);
-    }
+    public void SelectEasy() => StartDifficulty(MemoryDifficulty.Easy);
+    public void SelectNormal() => StartDifficulty(MemoryDifficulty.Normal);
+    public void SelectHard() => StartDifficulty(MemoryDifficulty.Hard);
 
     public void StartDifficulty(MemoryDifficulty difficulty)
     {
@@ -196,10 +184,7 @@ public class MemoryGameController : MonoBehaviour
 
         if (sprites == null || sprites.Count != requiredPairs)
         {
-            Debug.LogError(
-                $"Sushi Memory: {difficulty} necesita {requiredPairs} ilustraciones distintas. " +
-                "Completa su lista en el Inspector."
-            );
+            Debug.LogError($"Sushi Memory: {difficulty} necesita {requiredPairs} ilustraciones distintas.");
             return;
         }
 
@@ -208,9 +193,7 @@ public class MemoryGameController : MonoBehaviour
         {
             if (sprite == null || !uniqueSprites.Add(sprite))
             {
-                Debug.LogError(
-                    $"Sushi Memory: la lista {difficulty} contiene una ilustracion vacia o repetida."
-                );
+                Debug.LogError($"Sushi Memory: la lista {difficulty} contiene una ilustracion vacia o repetida.");
                 return;
             }
         }
@@ -227,10 +210,13 @@ public class MemoryGameController : MonoBehaviour
         firstCard = null;
         secondCard = null;
         isCheckingPair = false;
+        
+        // ¡Importante! Reiniciamos el estado de la recompensa
+        rewardProcessed = false;
+
         currentState = GameState.Ready;
         stateBeforePause = GameState.Ready;
 
-        // Conservar el tamano de las cartas; cambiar solo las columnas.
         if (boardGrid != null)
         {
             boardGrid.constraint = GridLayoutGroup.Constraint.FixedColumnCount;
@@ -238,20 +224,9 @@ public class MemoryGameController : MonoBehaviour
             boardGrid.childAlignment = TextAnchor.MiddleCenter;
         }
 
-        if (difficultySelectionPanel != null)
-        {
-            difficultySelectionPanel.SetActive(false);
-        }
-
-        if (resultPanel != null)
-        {
-            resultPanel.SetActive(false);
-        }
-
-        if (pausePanel != null)
-        {
-            pausePanel.SetActive(false);
-        }
+        if (difficultySelectionPanel != null) difficultySelectionPanel.SetActive(false);
+        if (resultPanel != null) resultPanel.SetActive(false);
+        if (pausePanel != null) pausePanel.SetActive(false);
 
         UpdateTimerDisplay();
         UpdateHUDStats();
@@ -262,10 +237,7 @@ public class MemoryGameController : MonoBehaviour
 
     private void GenerateBoard()
     {
-        if (activeCardSprites == null)
-        {
-            return;
-        }
+        if (activeCardSprites == null) return;
 
         List<int> cardIds = new List<int>();
         for (int i = 0; i < activeCardSprites.Count; i++)
@@ -291,10 +263,7 @@ public class MemoryGameController : MonoBehaviour
 
     private void ClearBoard()
     {
-        if (cardContainer == null)
-        {
-            return;
-        }
+        if (cardContainer == null) return;
 
         foreach (Transform child in cardContainer)
         {
@@ -392,10 +361,7 @@ public class MemoryGameController : MonoBehaviour
 
     private void UpdateTimerDisplay()
     {
-        if (timerText == null)
-        {
-            return;
-        }
+        if (timerText == null) return;
 
         int totalSeconds = Mathf.CeilToInt(remainingTime);
         int minutes = totalSeconds / 60;
@@ -405,15 +371,8 @@ public class MemoryGameController : MonoBehaviour
 
     private void UpdateHUDStats()
     {
-        if (hudAttemptsText != null)
-        {
-            hudAttemptsText.text = attempts.ToString();
-        }
-
-        if (hudPairsText != null)
-        {
-            hudPairsText.text = $"{matchedPairs}/{totalPairs}";
-        }
+        if (hudAttemptsText != null) hudAttemptsText.text = attempts.ToString();
+        if (hudPairsText != null) hudPairsText.text = $"{matchedPairs}/{totalPairs}";
     }
 
     private void ShowResults(bool isVictory)
@@ -434,24 +393,54 @@ public class MemoryGameController : MonoBehaviour
         int minutes = totalSeconds / 60;
         int seconds = totalSeconds % 60;
 
-        if (resultTimeText != null)
-        {
-            resultTimeText.text = $"Tiempo restante: {minutes:00}:{seconds:00}";
-        }
-
-        if (resultAttemptsText != null)
-        {
-            resultAttemptsText.text = $"Intentos realizados: {attempts}";
-        }
-
-        if (resultPairsText != null)
-        {
-            resultPairsText.text = $"Parejas encontradas: {matchedPairs}/{totalPairs}";
-        }
+        if (resultTimeText != null) resultTimeText.text = $"Tiempo restante: {minutes:00}:{seconds:00}";
+        if (resultAttemptsText != null) resultAttemptsText.text = $"Intentos realizados: {attempts}";
+        if (resultPairsText != null) resultPairsText.text = $"Parejas encontradas: {matchedPairs}/{totalPairs}";
 
         if (resultPanel != null)
         {
             resultPanel.SetActive(true);
+        }
+
+        // Solo otorgamos recompensa si es victoria
+        if (isVictory)
+        {
+            OtorgarRecompensa();
+        }
+    }
+
+      private void OtorgarRecompensa()
+    {
+        if (rewardProcessed) return;
+        
+        // 1. ¡Preguntamos si hay recompensas disponibles!
+        if (DailyRewardManager.Instance == null || !DailyRewardManager.Instance.CanPlayForReward())
+        {
+            Debug.Log("Memory: Límite diario de recompensas alcanzado. No se otorga dinero.");
+            if (resultSubtitleText != null)
+                resultSubtitleText.text = "¡Todas las parejas encontradas! (Límite diario alcanzado)";
+            return;
+        }
+
+        rewardProcessed = true;
+
+        // 2. Calculamos el dinero
+        int penalty = Mathf.Max(0, (attempts - matchedPairs) * 2);
+        int timeBonus = Mathf.CeilToInt(remainingTime) / 10;
+        int reward = Mathf.Max(0, 20 - penalty + timeBonus);
+
+        if (reward > 0)
+        {
+            string txId = "memory_" + System.Guid.NewGuid().ToString();
+            if (EconomyManager.Instance.AddSushiDollars(reward, txId))
+            {
+                // 3. ¡Registramos que gastamos una partida!
+                DailyRewardManager.Instance.RegisterMatchPlayed();
+                
+                Debug.Log($"Memory: +{reward} SushiDólares.");
+                if (resultSubtitleText != null)
+                    resultSubtitleText.text = $"¡Todas las parejas encontradas! +{reward} SD";
+            }
         }
     }
 
@@ -475,22 +464,13 @@ public class MemoryGameController : MonoBehaviour
         isCheckingPair = false;
         currentState = GameState.SelectingDifficulty;
 
-        if (resultPanel != null)
-        {
-            resultPanel.SetActive(false);
-        }
-
-        if (pausePanel != null)
-        {
-            pausePanel.SetActive(false);
-        }
+        if (resultPanel != null) resultPanel.SetActive(false);
+        if (pausePanel != null) pausePanel.SetActive(false);
 
         difficultySelectionPanel.SetActive(true);
         difficultySelectionPanel.transform.SetAsLastSibling();
     }
 
-    // Se utiliza para activar/desactivar las opciones del menu cuando lo construyamos.
-    // El dia se simula localmente hasta que Core/Progression este conectado.
     public bool IsDifficultyUnlocked(MemoryDifficulty difficulty)
     {
         switch (difficulty)
@@ -504,8 +484,6 @@ public class MemoryGameController : MonoBehaviour
         }
     }
 
-    // Punto de entrada provisional para recibir el dia desde Core en el futuro.
-    // No gestiona ni guarda por su cuenta el progreso global.
     public void SetRestaurantDay(int day)
     {
         testRestaurantDay = Mathf.Max(1, day);

@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 2b9872cfa98e5e34ab702092938ec285
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4513745979757319534
+    second: salsa_unagi_0
+  - first:
+      213: 2661779088296672662
+    second: salsa_unagi_1
+  - first:
+      213: -7950241506778832330
+    second: salsa_unagi_2
+  - first:
+      213: 71085567240948513
+    second: salsa_unagi_3
+  - first:
+      213: -5818926353723277374
+    second: salsa_unagi_4
+  - first:
+      213: -9148719152436278379
+    second: salsa_unagi_5
+  - first:
+      213: -2255392714327481094
+    second: salsa_unagi_6
+  - first:
+      213: 3584624432355137126
+    second: salsa_unagi_7
+  - first:
+      213: 2558717334221025900
+    second: salsa_unagi_8
+  - first:
+      213: -7853312271587448143
+    second: salsa_unagi_9
+  - first:
+      213: -2173235363195077844
+    second: salsa_unagi_10
+  - first:
+      213: 7012122354163938226
+    second: salsa_unagi_11
+  - first:
+      213: 1445475078290957320
+    second: salsa_unagi_12
+  - first:
+      213: -2339953502831933267
+    second: salsa_unagi_13
+  - first:
+      213: -5535723874065798070
+    second: salsa_unagi_14
+  - first:
+      213: 998592700184000651
+    second: salsa_unagi_15
+  - first:
+      213: 5910598407705450939
+    second: salsa_unagi_16
+  - first:
+      213: -2103398605692164973
+    second: salsa_unagi_17
+  - first:
+      213: 145375598865155429
+    second: salsa_unagi_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: salsa_unagi_0
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1495
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29aa73e32f3fb51c0800000000000000
+      internalID: -4513745979757319534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salsa_unagi_1
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1497
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d7c746af980f420800000000000000
+      internalID: 2661779088296672662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salsa_unagi_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1005
+        height: 1482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 632a1e5c8711ba190800000000000000
+      internalID: -7950241506778832330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salsa_unagi_3
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 1073
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12bcd0062fb8cf000800000000000000
+      internalID: 71085567240948513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salsa_unagi_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 537
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf3a20bf450f3fa0800000000000000
+      internalID: -5818926353723277374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salsa_unagi_5
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 534
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b09312768390180800000000000000
+      internalID: -9148719152436278379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salsa_unagi_6
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 509
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4a181a64c33b0e0800000000000000
+      internalID: -2255392714327481094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salsa_unagi_7
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 497
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666d6b7dde42fb130800000000000000
+      internalID: 3584624432355137126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salsa_unagi_8
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 487
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62f0eadbd3628320800000000000000
+      internalID: 2558717334221025900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salsa_unagi_9
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 461
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba60ddf81e630390800000000000000
+      internalID: -7853312271587448143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salsa_unagi_10
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 417
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2bb07393fd17d1e0800000000000000
+      internalID: -2173235363195077844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salsa_unagi_11
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 408
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b374891120105160800000000000000
+      internalID: 7012122354163938226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salsa_unagi_12
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 407
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804663ddceb5f0410800000000000000
+      internalID: 1445475078290957320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salsa_unagi_13
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 279
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da885c0dfa0d68fd0800000000000000
+      internalID: -2339953502831933267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salsa_unagi_14
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 253
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ca8af47782d23b0800000000000000
+      internalID: -5535723874065798070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salsa_unagi_15
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 223
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88f3c125c6bbdd00800000000000000
+      internalID: 998592700184000651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salsa_unagi_16
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 235
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9d545afe9a60250800000000000000
+      internalID: 5910598407705450939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salsa_unagi_17
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 237
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394aaa6cc1a3fc2e0800000000000000
+      internalID: -2103398605692164973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salsa_unagi_18
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 223
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5650e51465a740200800000000000000
+      internalID: 145375598865155429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      salsa_unagi_0: -4513745979757319534
+      salsa_unagi_1: 2661779088296672662
+      salsa_unagi_10: -2173235363195077844
+      salsa_unagi_11: 7012122354163938226
+      salsa_unagi_12: 1445475078290957320
+      salsa_unagi_13: -2339953502831933267
+      salsa_unagi_14: -5535723874065798070
+      salsa_unagi_15: 998592700184000651
+      salsa_unagi_16: 5910598407705450939
+      salsa_unagi_17: -2103398605692164973
+      salsa_unagi_18: 145375598865155429
+      salsa_unagi_2: -7950241506778832330
+      salsa_unagi_3: 71085567240948513
+      salsa_unagi_4: -5818926353723277374
+      salsa_unagi_5: -9148719152436278379
+      salsa_unagi_6: -2255392714327481094
+      salsa_unagi_7: 3584624432355137126
+      salsa_unagi_8: 2558717334221025900
+      salsa_unagi_9: -7853312271587448143
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

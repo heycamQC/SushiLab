@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: bd54db0712fe9454593b4eb008a5f757
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -555851335392176650
+    second: SPR_Ingredient_Nori_0
+  - first:
+      213: -950408932259712612
+    second: SPR_Ingredient_Nori_1
+  - first:
+      213: 7878614999509559468
+    second: SPR_Ingredient_Nori_2
+  - first:
+      213: 4375025987571164853
+    second: SPR_Ingredient_Nori_3
+  - first:
+      213: -8076888957358780321
+    second: SPR_Ingredient_Nori_4
+  - first:
+      213: -2659075972422149889
+    second: SPR_Ingredient_Nori_5
+  - first:
+      213: 100643676449354713
+    second: SPR_Ingredient_Nori_6
+  - first:
+      213: -4887996689107373472
+    second: SPR_Ingredient_Nori_7
+  - first:
+      213: -1928928171335904616
+    second: SPR_Ingredient_Nori_8
+  - first:
+      213: -8031804610582223556
+    second: SPR_Ingredient_Nori_9
+  - first:
+      213: -1980551352442400036
+    second: SPR_Ingredient_Nori_10
+  - first:
+      213: -7110946581436200004
+    second: SPR_Ingredient_Nori_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPR_Ingredient_Nori_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1297
+        height: 1159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5d50ec7283948f0800000000000000
+      internalID: -555851335392176650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Ingredient_Nori_1
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1121
+        width: 72
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c913d419c187fc2f0800000000000000
+      internalID: -950408932259712612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Ingredient_Nori_2
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1140
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8e4df6996765d60800000000000000
+      internalID: 7878614999509559468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Ingredient_Nori_3
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 1120
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b62840b4f637bc30800000000000000
+      internalID: 4375025987571164853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Ingredient_Nori_4
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1149
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50da56594029ef80800000000000000
+      internalID: -8076888957358780321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Ingredient_Nori_5
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1121
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff85001dd70191bd0800000000000000
+      internalID: -2659075972422149889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Ingredient_Nori_6
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1119
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d337a7f3ee856100800000000000000
+      internalID: 100643676449354713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Ingredient_Nori_7
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 1109
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0623872b8e85a2cb0800000000000000
+      internalID: -4887996689107373472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Ingredient_Nori_8
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1076
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892974e4c021b35e0800000000000000
+      internalID: -1928928171335904616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Ingredient_Nori_9
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 110
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35e6e0d24c498090800000000000000
+      internalID: -8031804610582223556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Ingredient_Nori_10
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 66
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd25042d90ba384e0800000000000000
+      internalID: -1980551352442400036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Ingredient_Nori_11
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 21
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb87b472c7d05d90800000000000000
+      internalID: -7110946581436200004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SPR_Ingredient_Nori_0: -555851335392176650
+      SPR_Ingredient_Nori_1: -950408932259712612
+      SPR_Ingredient_Nori_10: -1980551352442400036
+      SPR_Ingredient_Nori_11: -7110946581436200004
+      SPR_Ingredient_Nori_2: 7878614999509559468
+      SPR_Ingredient_Nori_3: 4375025987571164853
+      SPR_Ingredient_Nori_4: -8076888957358780321
+      SPR_Ingredient_Nori_5: -2659075972422149889
+      SPR_Ingredient_Nori_6: 100643676449354713
+      SPR_Ingredient_Nori_7: -4887996689107373472
+      SPR_Ingredient_Nori_8: -1928928171335904616
+      SPR_Ingredient_Nori_9: -8031804610582223556
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
