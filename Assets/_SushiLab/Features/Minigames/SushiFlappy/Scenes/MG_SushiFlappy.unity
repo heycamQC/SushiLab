@@ -958,8 +958,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: JUGAR
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3960706c9c2ac3443aeb2a5c6564fbba, type: 2}
+  m_sharedMaterial: {fileID: -2972263240557212927, guid: 3960706c9c2ac3443aeb2a5c6564fbba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1377,8 +1377,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Puntos: 0'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3960706c9c2ac3443aeb2a5c6564fbba, type: 2}
+  m_sharedMaterial: {fileID: -2972263240557212927, guid: 3960706c9c2ac3443aeb2a5c6564fbba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1410,7 +1410,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -1533,8 +1533,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: VOLVER.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3960706c9c2ac3443aeb2a5c6564fbba, type: 2}
+  m_sharedMaterial: {fileID: -2972263240557212927, guid: 3960706c9c2ac3443aeb2a5c6564fbba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2170,8 +2170,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: REINTENTAR
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3960706c9c2ac3443aeb2a5c6564fbba, type: 2}
+  m_sharedMaterial: {fileID: -2972263240557212927, guid: 3960706c9c2ac3443aeb2a5c6564fbba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2421,8 +2421,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "R\xE9cord: 0"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c4f9074317080cc4ab0d5b41bd341e7e, type: 2}
+  m_sharedMaterial: {fileID: -1448507415194154797, guid: c4f9074317080cc4ab0d5b41bd341e7e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2985,8 +2985,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\xA1Ayuda al gatito a esquivar las vigas!"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c4f9074317080cc4ab0d5b41bd341e7e, type: 2}
+  m_sharedMaterial: {fileID: -1448507415194154797, guid: c4f9074317080cc4ab0d5b41bd341e7e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3277,8 +3277,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Toca o presiona ESPACIO para saltar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3960706c9c2ac3443aeb2a5c6564fbba, type: 2}
+  m_sharedMaterial: {fileID: -2972263240557212927, guid: 3960706c9c2ac3443aeb2a5c6564fbba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3423,8 +3423,8 @@ GameObject:
   - component: {fileID: 1768763968}
   - component: {fileID: 1768763967}
   - component: {fileID: 1768763966}
-  - component: {fileID: 1768763965}
   - component: {fileID: 1768763969}
+  - component: {fileID: 1768763970}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3432,42 +3432,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &1768763965
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1768763964}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 0.6175
 --- !u!50 &1768763966
 Rigidbody2D:
   serializedVersion: 5
@@ -3592,6 +3556,146 @@ MonoBehaviour:
   maxDeathSpeed: 12
   deathRotationSpeed: 210
   screenMargin: 0.3
+--- !u!60 &1768763970
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768763964}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.235, y: 0.98}
+    newSize: {x: 1.235, y: 0.98}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.0725, y: -0.435}
+      - {x: 0.1425, y: -0.42999998}
+      - {x: 0.19, y: -0.4075}
+      - {x: 0.22749999, y: -0.38}
+      - {x: 0.26, y: -0.35}
+      - {x: 0.2875, y: -0.33499998}
+      - {x: 0.305, y: -0.315}
+      - {x: 0.33249998, y: -0.29999998}
+      - {x: 0.36749998, y: -0.26999998}
+      - {x: 0.39749998, y: -0.255}
+      - {x: 0.42749998, y: -0.2325}
+      - {x: 0.435, y: -0.21499999}
+      - {x: 0.47, y: -0.21}
+      - {x: 0.5, y: -0.16749999}
+      - {x: 0.5275, y: -0.1475}
+      - {x: 0.545, y: -0.107499994}
+      - {x: 0.545, y: -0.07}
+      - {x: 0.5575, y: -0.04}
+      - {x: 0.59749997, y: -0.0325}
+      - {x: 0.6175, y: -0.012499999}
+      - {x: 0.6175, y: 0.057499997}
+      - {x: 0.585, y: 0.0975}
+      - {x: 0.53749996, y: 0.122499995}
+      - {x: 0.5175, y: 0.13}
+      - {x: 0.53249997, y: 0.16}
+      - {x: 0.5525, y: 0.21499999}
+      - {x: 0.5725, y: 0.2175}
+      - {x: 0.5775, y: 0.2375}
+      - {x: 0.545, y: 0.2625}
+      - {x: 0.555, y: 0.2775}
+      - {x: 0.5525, y: 0.285}
+      - {x: 0.53999996, y: 0.285}
+      - {x: 0.5075, y: 0.29999998}
+      - {x: 0.48499998, y: 0.3275}
+      - {x: 0.46249998, y: 0.35}
+      - {x: 0.4425, y: 0.4325}
+      - {x: 0.42499998, y: 0.465}
+      - {x: 0.39249998, y: 0.48999998}
+      - {x: 0.36249998, y: 0.48999998}
+      - {x: 0.33499998, y: 0.47}
+      - {x: 0.315, y: 0.44}
+      - {x: 0.29749998, y: 0.405}
+      - {x: 0.26749998, y: 0.405}
+      - {x: 0.24, y: 0.4025}
+      - {x: 0.175, y: 0.38}
+      - {x: 0.1425, y: 0.35}
+      - {x: 0.11, y: 0.35999998}
+      - {x: 0.089999996, y: 0.36499998}
+      - {x: 0.0625, y: 0.37}
+      - {x: 0.0175, y: 0.3725}
+      - {x: 0.0025, y: 0.35999998}
+      - {x: -0.005, y: 0.3475}
+      - {x: -0.0025, y: 0.29}
+      - {x: 0.015, y: 0.24749999}
+      - {x: 0.0075, y: 0.205}
+      - {x: -0.0425, y: 0.185}
+      - {x: -0.0625, y: 0.1875}
+      - {x: -0.13499999, y: 0.1525}
+      - {x: -0.16749999, y: 0.13}
+      - {x: -0.18249999, y: 0.11}
+      - {x: -0.185, y: 0.0975}
+      - {x: -0.26, y: 0.044999998}
+      - {x: -0.3125, y: 0.0025}
+      - {x: -0.385, y: -0.074999996}
+      - {x: -0.39999998, y: -0.1025}
+      - {x: -0.4325, y: -0.17}
+      - {x: -0.4325, y: -0.22749999}
+      - {x: -0.4125, y: -0.275}
+      - {x: -0.3875, y: -0.305}
+      - {x: -0.435, y: -0.3075}
+      - {x: -0.4675, y: -0.29}
+      - {x: -0.53749996, y: -0.22999999}
+      - {x: -0.5575, y: -0.2175}
+      - {x: -0.59, y: -0.22}
+      - {x: -0.60249996, y: -0.2225}
+      - {x: -0.6175, y: -0.24}
+      - {x: -0.6175, y: -0.29999998}
+      - {x: -0.60249996, y: -0.32}
+      - {x: -0.5675, y: -0.3575}
+      - {x: -0.53499997, y: -0.3825}
+      - {x: -0.48749998, y: -0.405}
+      - {x: -0.445, y: -0.41}
+      - {x: -0.37, y: -0.4025}
+      - {x: -0.33249998, y: -0.39499998}
+      - {x: -0.3175, y: -0.4125}
+      - {x: -0.29749998, y: -0.4475}
+      - {x: -0.275, y: -0.4525}
+      - {x: -0.24499999, y: -0.48749998}
+      - {x: -0.21, y: -0.48999998}
+      - {x: -0.105, y: -0.48999998}
+      - {x: -0.057499997, y: -0.4825}
+      - {x: -0.022499999, y: -0.45999998}
+      - {x: 0.03, y: -0.45}
+  m_UseDelaunayMesh: 1
 --- !u!1 &1820443187
 GameObject:
   m_ObjectHideFlags: 0
@@ -3651,8 +3755,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: GAME OVER
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3960706c9c2ac3443aeb2a5c6564fbba, type: 2}
+  m_sharedMaterial: {fileID: -2972263240557212927, guid: 3960706c9c2ac3443aeb2a5c6564fbba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3864,8 +3968,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: FLAPPY SUSHI
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3960706c9c2ac3443aeb2a5c6564fbba, type: 2}
+  m_sharedMaterial: {fileID: -2972263240557212927, guid: 3960706c9c2ac3443aeb2a5c6564fbba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4154,8 +4258,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Puntos: 0'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c4f9074317080cc4ab0d5b41bd341e7e, type: 2}
+  m_sharedMaterial: {fileID: -1448507415194154797, guid: c4f9074317080cc4ab0d5b41bd341e7e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
